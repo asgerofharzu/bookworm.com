@@ -1,0 +1,210 @@
+@import url(//db.onlinewebfonts.com/c/9a7e574c3eda05d71d03345d3f9e268e?family=FuturaLTW01-LightOblique);
+html {
+    scroll-behavior: smooth !important;
+  }
+body{
+    width: 100vw;
+    height: 100vh;
+}
+nav{
+    margin-top: 2%;
+}
+nav>.navbar-brand{
+    margin-left: 9%;
+    font-weight: 900;
+    color: #0E345A !important;
+}
+.navbar-nav{
+    margin-right: 10% !important;
+}
+.navbar-nav>.nav-link{
+    color: #0E345A !important;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.navbar-nav>.nav-link:hover{
+    color: #657B94 !important;
+}
+section{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important; 
+    position: relative;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+section>img{
+    width: 1154px;
+    height: 524px;
+    
+}
+section>span{
+    color: #FFF;
+    font-weight: 900;
+    font-size: 6em;
+    z-index: 9;
+    position: absolute;
+}
+section>.f1{
+    top: 15%;
+    left: 15%;
+}
+section>.f2{
+    top: 30%;
+    left: 15%;
+}
+section>.f3{
+    top: 45%;
+    left: 15%;
+}
+section>.f4{
+    top: 60%;
+    left: 15%;
+}
+.bestseller{
+    text-align: center;
+}
+.bestseller>h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: #0E345A;
+    letter-spacing: 0.3em;
+}
+.bestseller>h5{
+    color: #0E345A;
+    font-weight: 600;
+}
+.flexible{
+    position: relative;
+}
+.car{
+    z-index: 2 !important;
+}
+#right,#right2{
+    position: absolute;
+    top: 40%;
+    left: 97%;
+    z-index: 9;
+}
+#left,#left2{
+    position: absolute;
+    top: 40%;
+    right: 98%;
+    z-index: 9;
+}
+
+.board{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    background: #0E345A;
+    width: 90%;
+    height: 120%;
+    z-index: -1;
+}
+h1.fwb{
+    color: #FFF !important;
+    font-size: 2.5em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p.fwb{
+    color: #FFF !important;
+    font-size: 1.2em;
+}
+.board>a{
+    position: relative;
+    top: 90%;
+    left: 0%;
+    border: 4px solid #FFF;
+    color: #FFF;
+    padding: 20px;
+    font-weight: 300;
+}
+.board>a:hover{
+    background: #FFF;
+    color: #0E345A;
+    text-decoration: none;
+}
+footer{
+    margin-top: 30%;
+    height: 33%;
+    padding: 20px;
+    width: 100%;
+    background: #0E345A;
+    color: #FFF;
+}
+footer>div.second{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+div.scroll-up{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 8%;
+    width: 5%;
+    background: #0F2840;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.scroll-up>a{
+    color: #FFF !important;
+    font-size: 1.2em;
+}
+footer>div>.socials>a{
+    display: block;
+    margin-top: 3%;
+    color: #FFF;
+}
+footer>div>.socials>a:hover{
+    text-decoration: none;
+}
+
+@media screen and (max-width:991px) {
+    nav{
+        width: 100vw;
+        display: flex !important;
+        align-items: center !important;
+        justify-content:space-around !important;
+    }
+    .nav-link{
+        text-align: center;
+    }
+    nav>.navbar-brand{
+        margin-left: 0%;
+    }
+    section>img{
+        width: 80%;
+    }
+    section>span{
+        font-size: 5em;
+    }
+    .mx-md-auto{
+        display: none !important;
+    }
+    #right,#right2{
+        position: absolute;
+        top: 40%;
+        left: 98%;
+    }
+    #left,#left2{
+        position: absolute;
+        top: 40%;
+        right: 101%;
+    }
+}
+
+
+
+
+
+
+
+
+
