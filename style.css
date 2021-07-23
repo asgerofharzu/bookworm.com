@@ -166,6 +166,20 @@ footer>div>.socials>a:hover{
     text-decoration: none;
 }
 
+@media screen and (max-width:1148px){
+    section>img{
+        width: 100%;
+        height: 524px;
+    }
+    footer{
+        box-sizing: border-box;
+        width: 100%;
+        margin-top: 30%;
+        margin-right: 0% !important;
+    }
+}
+
+
 @media screen and (max-width:991px) {
     nav{
         width: 100vw;
@@ -198,13 +212,82 @@ footer>div>.socials>a:hover{
         top: 40%;
         right: 101%;
     }
+    footer{
+        height: 45%;
+        margin-top: 30%;
+    }
+    footer>div>.socials>a{
+        margin-top: 2%;
+    }
 }
-
-
-
-
-
-
+@media screen and (max-width:939px){
+    footer{
+        height: 45%;
+        margin-top: 40%;
+    }
+}
+@media screen and (max-width:765px){
+    footer{
+        height: 45%;
+        margin-top: 50%;
+    }
+    .change-width{
+        width: 16rem !important;
+    }
+    section>img{
+        height: 400px;
+    }
+    section>span{
+        font-size: 4em;
+    }
+    .bestseller>h1{
+        font-size: 2em;
+    }
+    h1.fwb{
+        font-size: 2em;
+    }
+    footer>div>div>h5{
+        font-size: 1em;
+    }
+    footer>div>div>p,a{
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width:656px){
+    footer{
+        height: 35%;
+        margin-top: 60%;
+    }
+    .bestseller>h1{
+        font-size: 1.5em;
+    }
+    h1.fwb{
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width:583px){
+    footer{
+        height: 55%;
+        margin-top: 60%;
+    }
+}
+@media screen and (max-width:573px){
+    .mx-sm-auto{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:549px){
+    footer{
+        height: 75%;
+        margin-top: 80%;
+    }
+}
+@media screen and (max-width:411px){
+    footer{
+        height: 75%;
+        margin-top: 100%;
+    }
+}
 
 
 
