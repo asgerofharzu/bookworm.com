@@ -354,3 +354,14 @@ footer>div>.socials>a:hover{
         height: 100%;
     }
 }
+@media screen and (min-width:1300px) {
+    footer{
+        box-sizing: border-box;
+    }
+    nav>.navbar-brand{
+        margin-left: 2% !important;
+    }
+    .navbar-nav{
+        margin-right: 2% !important;
+    }
+}
