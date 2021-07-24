@@ -319,3 +319,12 @@ select:focus {
   }
 }
 
+.logo>a>span{
+  font-weight: bold !important;
+  display: table;
+  transform: translate(50%, -180%) !important;
+}
+.logo>a{
+  display: table;
+  transform: translateY(20%)
+}
