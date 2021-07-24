@@ -9,6 +9,7 @@ body
 {
     width: 100vw;
     height: 100vh;
+    background: url(./assets/images/690cf657788ea89a9ecabc258a0388f1.jpg.crdownload);
     
     
 }
@@ -157,6 +158,17 @@ input[type=text]:focus
     z-index: 1;
     opacity: 1;
     transition: opacity 0.5 ease-in-out 1.3s;
+}
+.banner
+{   
+    
+    width: 100vw;
+    background: url(./assets/images/7251453_preview.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  
 }
 
 

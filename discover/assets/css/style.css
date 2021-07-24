@@ -46,7 +46,11 @@
     margin: 0 15px;
     text-align: center;
     overflow: hidden;
-    margin-bottom: 15%;
+  
+}
+.photo-box
+{
+    margin-bottom:15%;
 }
 .box .img , .img2 , .img3 , .img4 , .img5 , .img6 , .img7 , .img8 , .img9{
     position: relative;
@@ -251,4 +255,26 @@
     background: linear-gradient(45deg, #1f4037,#99f2c8);
     color: white;
     border-radius: 20px;
+}
+.fa-star
+{
+    margin-top: 5%;
+    font-size: 2em;
+    font-weight: 100;
+    margin-left: 1%;
+    color:rgba(206, 206, 25, 0.904);
+    
+    
+}
+.star-icons
+{
+    margin-left: 22%;
+}
+.fa-star-half-alt
+{
+    margin-top: 5%;
+    font-size: 2em;
+    color:rgba(206, 206, 25, 0.904);
+    margin-left: 1%
+
 }
