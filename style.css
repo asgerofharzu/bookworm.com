@@ -288,6 +288,39 @@ footer>div>.socials>a:hover{
         margin-top: 100%;
     }
 }
-
+/* .navbar>.collapse>.navbar-nav>.nav-link::before
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 60%;
+    width: 0%;
+    background:#fff;
+    height:3px;
+    transition:all 0.5s linear;
+    margin: 7px 0;
+}
+.navbar>.collapse>.navbar-nav>.nav-link::after
+{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 60%;
+    width: 0%;
+    background:#fff;
+    height:3px;
+    transition:all 0.5s linear;
+    margin: 7px 0;
+}
+.navbar>.collapse>.navbar-nav>.nav-link:hover::before
+{   
+    width:100%;
+    background: #00ffdd;
+}
+.navbar>.collapse>.navbar-nav>.nav-link:hover::after
+{
+    width:100%;
+    background: #00ffdd;
+} */
 
 
