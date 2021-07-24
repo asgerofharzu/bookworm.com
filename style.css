@@ -1,167 +1,63 @@
-html {
-    scroll-behavior: smooth !important;
-  }
-body{
-    width: 100vw;
-    height: 100vh;
-}
-nav{
-    margin-top: 2%;
-    width: 100vw;
-}
-nav>.navbar-brand{
-    margin-left: 9%;
-    font-weight: 900;
-    color: #0E345A !important;
-}
-.navbar-nav{
-    margin-right: 10% !important;
-}
-.navbar-nav>.nav-link{
-    color: #0E345A !important;
-    font-size: 1.2em;
-    font-weight: 300;
-}
-.navbar-nav>.nav-link:hover{
-    color: #657B94 !important;
-}
-section{
-    width: 100%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center !important;
-    align-items: center !important; 
-    position: relative;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
 section>img{
+    align-self: center;
     width: 1154px;
     height: 524px;
-    
 }
-section>span{
-    color: #FFF;
-    font-weight: 900;
-    font-size: 6em;
-    z-index: 9;
-    position: absolute;
+section>div{
+    left:3em;
+    font-size: 3.5em;
 }
-section>.f1{
-    top: 15%;
-    left: 15%;
+.nav-link:hover{
+    color: #647A94 !important;
 }
-section>.f2{
-    top: 30%;
-    left: 15%;
-}
-section>.f3{
-    top: 45%;
-    left: 15%;
-}
-section>.f4{
-    top: 60%;
-    left: 15%;
-}
-.bestseller{
-    text-align: center;
-}
-.bestseller>h1{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 900;
-    color: #0E345A;
-    letter-spacing: 0.3em;
-}
-.bestseller>h5{
-    color: #0E345A;
-    font-weight: 600;
-}
-.flexible{
-    position: relative;
-}
-.car{
-    z-index: 2 !important;
-}
-#right,#right2{
-    position: absolute;
-    top: 40%;
-    left: 97%;
-    z-index: 9;
-}
-#left,#left2{
-    position: absolute;
-    top: 40%;
-    right: 98%;
-    z-index: 9;
-}
-
-.board{
-    position: absolute;
-    top: 20%;
-    left: 5%;
-    background: #0E345A;
-    width: 90%;
-    height: 120%;
+.second{
+    width: 100%;
+    height: 30vh;
     z-index: -1;
+    bottom: 20em;
 }
-h1.fwb{
-    color: #FFF !important;
-    font-size: 2.5em;
-    font-weight: 600;
-    letter-spacing: 0.2em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.second>a{
+    border: 3px solid #FFF;
+    padding: 5px 6px;
+    color:#FFF;
+    text-decoration: none;
 }
-p.fwb{
-    color: #FFF !important;
-    font-size: 1.2em;
-}
-.board>a{
-    position: relative;
-    top: 90%;
-    left: 0%;
-    border: 4px solid #FFF;
-    color: #FFF;
-    padding: 20px;
-    font-weight: 300;
-}
-.board>a:hover{
+.second>a:hover{
     background: #FFF;
-    color: #0E345A;
+    color:#0E345A;
     text-decoration: none;
 }
-footer{
-    margin-top: 30%;
-    height: 33%;
-    padding: 20px;
-    width:  100%;
-    background: #0E345A;
-    color: #FFF;
-}
-footer>div.second{
-    margin-top: 1%;
-    display: flex;
-    justify-content: center;
-}
-div.scroll-up{
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    height: 8%;
-    width: 5%;
-    background: #0F2840;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-div.scroll-up>a{
-    color: #FFF !important;
-    font-size: 1.2em;
-}
-footer>div>.socials>a{
-    display: block;
-    margin-top: 3%;
-    color: #FFF;
-}
-footer>div>.socials>a:hover{
+a:hover{
     text-decoration: none;
+}
+@media screen and (max-width:1000px) {
+    section>img{
+        width: 90%;
+    }
+    section>div{
+        left:2em;
+        font-size: 3.5em;
+    }
+}
+@media screen and (max-width:700px) {
+    section>img{
+        width: 90%;
+    }
+    section>div{
+        left:1em;
+        font-size: 3.5em;
+    }
+}
+@media screen and (max-width:500px) {
+    footer>div{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:400px) {
+    section>div{
+        left:1em;
+        font-size: 2.5em;
+    }
+    
 }
