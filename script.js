@@ -38,7 +38,7 @@ $(function() {
             
             if (user.userName===userName && user.password===password) {
                 window.localStorage.setItem('keyWord',i);
-                window.location.href="singn_up/index.html";
+                window.location.href="index.html";
                 return;
             }
             
