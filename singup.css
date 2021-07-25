@@ -270,6 +270,13 @@ form.sign-in-form {
   pointer-events: all;
 }
 
+.disabled{
+  opacity: 0.1;
+  background: #000;
+  pointer-events: none;
+  cursor: pointer;
+}
+
 @media (max-width: 870px) {
   .container {
     min-height: 800px;
@@ -398,3 +405,7 @@ form.sign-in-form {
     left: 50%;
   }
 }
+
+
+
+

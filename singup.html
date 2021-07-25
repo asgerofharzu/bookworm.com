@@ -14,17 +14,18 @@
     <div class="container">
       <div class="forms-container">
         <div class="signin-signup">
-          <form action="#" class="sign-in-form">
+          <form action="#" class="sign-in-form" id="form1" >
             <h2 class="title">Sign in</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" />
+              <input type="text" id="signin-user" placeholder="Username" />
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" />
+              <input type="password" id="signin-password" placeholder="Password" />
             </div>
-            <button type="submit" value="Login" class="btn solid">
+            <p class="checker"></p>
+            <button type="submit" value="Login" class="btn solid" id="signin-login" > 
                 Login
             </button>
             <p class="social-text">Or Sign in with social platforms</p>
@@ -43,21 +44,22 @@
               </a>
             </div>
           </form>
-          <form action="#" class="sign-up-form">
+          <form action="#" class="sign-up-form" id="form2">
             <h2 class="title">Sign up</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" />
+              <input type="text" id="signup-user" placeholder="Username"  />
             </div>
             <div class="input-field">
               <i class="fas fa-envelope"></i>
-              <input type="email" placeholder="Email" />
+              <input type="email" id="signup-mail" placeholder="Email"  />
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" />
+              <input type="password" id="signup-password" placeholder="Password" />
             </div>
-            <button type="submit" class="btn" value="Sing up">
+            <p class="error"></p>
+            <button type="submit" class="btn" value="Sing up" id="singup-login" >
                 Login
             </button>
             <p class="social-text">Or Sign up with social platforms</p>
@@ -107,6 +109,14 @@
       </div>
     </div>
 
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-database.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./config.js"></script>
     <script src="./singup.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
