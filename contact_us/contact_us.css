@@ -9,10 +9,13 @@ body
 {
     width: 100vw;
     height: 100vh;
-    background: url(./assets/images/690cf657788ea89a9ecabc258a0388f1.jpg.crdownload);
-    
-    
+    background: url(./assets/images/690cf657788ea89a9ecabc258a0388f1.jpg.crdownload);   
 }
+
+.nav-link:hover{
+    color: #647A94 !important;
+}
+
 .main-contact
 {
     height: 100vh;

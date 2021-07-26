@@ -11,7 +11,8 @@ $(function(){
             window.location.href='singup.html';
             return;
         }
-        $("#firebase-name>span").html(info.userName);
+        window.userInfo=info;
+        $("#firebase-name>span").html(window.userInfo.userName);
         $("#firebase-name").removeAttr('href');
     })
 

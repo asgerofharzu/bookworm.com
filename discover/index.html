@@ -17,21 +17,21 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #f1f1f1 !important;">
-        <a class="navbar-brand" href="../index.html" id="scroll"><img
-                src="https://image.flaticon.com/icons/png/512/3227/3227053.png" class="mr-2" width="40"
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <a class="navbar-brand font-weight-bold" style="color: #0E345A;" href="../index.html" id="scroll"><img
+                src="../singn_up/logo.png" class="mr-2" width="40"
                 height="40">BookWorm</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="../eventss/events.html">Events</a>
-            <a class="nav-link" href="../about-us/about.html">About</a>
-            <a class="nav-link" href="../contact_us/contact_us.html">Contact</a>
-            <a class="nav-link" href="../singup.html"><i class="fas fa-user-circle mr-2"></i>Login</a>
+          <div class="navbar-nav text-center ml-auto">
+            <a class="nav-link" href="../index.html" style="color: #0E345A;" >Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="../eventss/events.html" style="color: #0E345A;">Events</a>
+            <a class="nav-link" href="../about-us/about.html"style="color: #0E345A;">About</a>
+            <a class="nav-link" href="../contact_us/contact_us.html"style="color: #0E345A;">Contact</a>
+            <a class="nav-link login" id="firebase-name" href="../singup.html"style="color: #0E345A;"><i class="fas fa-user-circle mr-2"></i><span>Login</span></a>
           </div>
         </div>
     </nav>
@@ -131,13 +131,11 @@
 
             </div>
 
-
             <div class="photo-box">
                 <div class="box">
                     <div class="img5"></div>
                     <div class="overlay"></div>
                     <div class="overlay2"></div>
-
                     <div class="text">
                         <span></span>
                         <span></span>
@@ -149,8 +147,12 @@
                             <button class="hover-btn">Add to Readlist</button>
                         </p>
                     </div>
+
+
                 </div>
+
             </div>
+
 
             <div class="photo-box">
                 <div class="box">
@@ -174,7 +176,27 @@
 
             <div class="photo-box">
                 <div class="box">
-                <div class="img7"></div>
+                    <div class="img7"></div>
+                    <div class="overlay"></div>
+                    <div class="overlay2"></div>
+
+                    <div class="text">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <h2>Kitabin muellifi</h2>
+                        <p>Team 1</p>
+                        <p>
+                            <button class="hover-btn">Add to Readlist</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo-box">
+                <div class="box">
+                <div class="img8"></div>
                 <div class="overlay"></div>
                 <div class="overlay2"></div>
 
@@ -195,7 +217,7 @@
 
             <div class="photo-box">
                 <div class="box">
-                <div class="img8"></div>
+                <div class="img9"></div>
                 <div class="overlay"></div>
                 <div class="overlay2"></div>
 
@@ -227,7 +249,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-database.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../config.js"></script>
     <script src="./assets/js/index.js"></script>
-</body>
 
+</body>
 </html>
