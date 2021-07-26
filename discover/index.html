@@ -37,9 +37,21 @@
     </nav>
     <div class="main-store">
 
-        <div class="text">
+        <div class="text mb-2">
             <h6>Add</h6>
             <h1>Your Comment!</h1>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" list="autofix" value="Sherlock" >
+                <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="ajax-search" >Search</button>
+                <datalist id="autofix">
+                    <option value="Dan brown">Dan brown</option>
+                    <option value="J. K. Rowling">J. K. Rowling</option>
+                    <option value="Agatha Christie">Agatha Christie</option>
+                    <option value="Arthur Conan Doyle">Arthur Conan Doyle</option>
+                    <option value="Carl Sagan">Carl Sagan</option>
+                    <option value="Fyodor Dostoevsky">Fyodor Dostoevsky</option>
+                </datalist>
+            </form>          
         </div>
 
         <div class="photos">
@@ -54,10 +66,13 @@
                         <span></span>
                         <span></span>
                         <span></span>
-                        <h2>Kitabin muellifi</h2>
+                        <h2 class="author"></h2>
                         <p>Team 1</p>
                         <p>
-                            <button class="hover-btn">Add to Comment</button>
+
+                            <button type="button" class="btn btn-primary count" data-toggle="modal" data-target="">
+                               Add to Comment
+                            </button>
                         </p>
 
                     </div>
@@ -74,10 +89,12 @@
                         <span></span>
                         <span></span>
                         <span></span>
-                        <h2>Kitabin muellifi</h2>
+                        <h2 class="author"></h2>
                         <p>Team 1</p>
                         <p>
-                            <button class="hover-btn">Add to Comment</button>
+                            <button type="button" class="btn btn-primary count" data-toggle="modal" data-target="">
+                               Add to Comment
+                              </button>
                         </p>
                     </div>
                 </div>
@@ -95,10 +112,12 @@
                         <span></span>
                         <span></span>
                         <span></span>
-                        <h2>Kitabin muellifi</h2>
+                        <h2 class="author"></h2>
                         <p>Team 1</p>
                         <p>
-                            <button class="hover-btn">Add to Comment</button>
+                            <button type="button" class="btn btn-primary count" data-toggle="modal" data-target="">
+                                Add to Comment
+                            </button>
                         </p>
 
 
@@ -117,10 +136,12 @@
                         <span></span>
                         <span></span>
                         <span></span>
-                        <h2>Kitabin muellifi</h2>
+                        <h2 class="author"></h2>
                         <p>Team 1</p>
                         <p>
-                            <button class="hover-btn">Add to Comment</button>
+                            <button type="button" class="btn btn-primary count" data-toggle="modal" data-target="">
+                                Add to Comment
+                              </button>
                         </p>
                     </div>
 
@@ -139,10 +160,13 @@
                         <span></span>
                         <span></span>
                         <span></span>
-                        <h2>Kitabin muellifi</h2>
+                        <h2 class="author"></h2>
                         <p>Team 1</p>
                         <p>
-                            <button class="hover-btn">Add to Comment</button>
+
+                            <button type="button" class="btn btn-primary count " data-toggle="modal" data-target="">
+                               Add to Comment
+                              </button>
                         </p>
                     </div>
 
@@ -163,10 +187,13 @@
                         <span></span>
                         <span></span>
                         <span></span>
-                        <h2>Kitabin muellifi</h2>
+                        <h2 class="author"></h2>
                         <p>Team 1</p>
                         <p>
-                            <button class="hover-btn">Add to Comment</button>
+
+                            <button type="button" class="btn btn-primary count " data-toggle="modal" data-target="">
+                               Add to Comment
+                              </button>
                         </p>
                     </div>
                 </div>
@@ -183,10 +210,13 @@
                         <span></span>
                         <span></span>
                         <span></span>
-                        <h2>Kitabin muellifi</h2>
+                        <h2 class="author"></h2>
                         <p>Team 1</p>
                         <p>
-                            <button class="hover-btn">Add to Comment</button>
+
+                            <button type="button" class="btn btn-primary count " data-toggle="modal" data-target="">
+                               Add to Comment
+                              </button>
                         </p>
                     </div>
                 </div>
@@ -203,10 +233,12 @@
                     <span></span>
                     <span></span>
                     <span></span>
-                    <h2>Kitabin muellifi</h2>
+                    <h2 class="author"></h2>
                     <p>Team 1</p>
                     <p>
-                        <button class="hover-btn">Add to Comment</button>
+                        <button type="button" class="btn btn-primary count " data-toggle="modal" data-target="">
+                           Add to Comment
+                          </button>
                     </p>
                 </div>
             </div>
@@ -224,10 +256,12 @@
                     <span></span>
                     <span></span>
                     <span></span>
-                    <h2>Kitabin muellifi</h2>
+                    <h2 class="author"></h2>
                     <p>Team 1</p>
                     <p>
-                        <button class="hover-btn">Add to Comment</button>
+                        <button type="button" class="btn btn-primary count " data-toggle="modal" data-target="">
+                           Add to Comment
+                        </button>
                     </p>
                 </div>
             </div>
@@ -235,7 +269,37 @@
  </div>
     </div>
 
-
+    <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+   Add to Comment
+  </button> -->
+  <!-- Scrollable modal -->
+ <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Launch demo modal
+  </button> -->
+  
+  <!-- Modal -->
+  <!-- <div class="modal fade" id="img1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  
 
 
 
