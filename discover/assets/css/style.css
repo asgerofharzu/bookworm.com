@@ -66,7 +66,7 @@
     transition: 0.8s;
 
 }
-.box .img
+/* .box .img
 {
     background:url(../photos/1.jpg)
 }
@@ -101,7 +101,7 @@
 .box .img9
 {
     background: url(../photos/9.jpg);
-}
+} */
 .box:hover .img , .img2 , .img3 , .img4 , .img5 , .img6 , .img7 , .img8 , .img9
 {
     background-position: 50% 0 !important;
