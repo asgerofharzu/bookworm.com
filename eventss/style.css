@@ -206,14 +206,6 @@ h4 {
   justify-content: space-between;
   margin: 100px auto 50px;
 }
-select {
-  border: 1px solid #ff523b;
-  border-radius: 3px;
-  padding: 5px;
-}
-select:focus {
-  outline: none;
-}
 .page-btn {
   margin: 0 auto 80px;
 }
