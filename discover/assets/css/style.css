@@ -66,6 +66,30 @@
     transition: 0.8s;
 
 }
+/* .fade{
+    background: cornflowerblue;
+} */
+div.modal-content{
+    width: 80vw !important;
+    height: 90vh !important;
+}
+#exampleModalLabel{
+    font-weight: bold;
+    color: #0E345A;
+    text-align: center !important;
+}
+input.form-control{
+    width: 80%;
+}
+div.form-group>form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+#comment-btn{
+    width: 50%;
+}
 /* .box .img
 {
     background:url(../photos/1.jpg)
