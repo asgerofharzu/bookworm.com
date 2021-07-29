@@ -23,7 +23,7 @@
       <div class="navbar">
         <div class="logo">
           <a href="events.html"><img
-            src="https://image.flaticon.com/icons/png/512/3227/3227053.png" class="mr-2" width="40"
+            src="../singn_up/logo.png" class="mr-2" width="40"
             height="40"><span>BookWorm</span>
           </a>
         </div>
@@ -35,8 +35,6 @@
             <li><a href="ebooks.html">Ebooks</a></li>
             <li><a href="../about-us/about.html">About</a></li>
             <li><a href="../contact_us/contact_us.html">Contact</a></li>
-            <li> <a class="nav-link" href="../singup.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i>
-              Login</a></li>
           </ul>
         </nav>
         <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
@@ -51,9 +49,9 @@
         </div>
         <div class="col-2">
           <p>Home / Ebook</p>
-          <h1>Anna Karenina by LEO TOLSTOY</h1>
+          <h1><span class="book-name">Anna Karenina </span> by <span class="author-name">LEO TOLSTOY</span></h1>
           <br />
-          <p>
+          <p class="description">
             Acclaimed by many as the world's greatest novel, Anna Karenina
             provides a vast panorama of contemporary life in Russia and of
             humanity in general. In it Tolstoy uses his intense imaginative
@@ -76,7 +74,7 @@
 
     <div class="small-container">
       <div class="row">
-        <div class="col-4">
+        <div class="col-4 related-books">
           <img src="images/Book 4.jpg" alt="Book 4" />
           <h4>Anna Karenina</h4>
           <div class="rating">
@@ -87,7 +85,7 @@
             <i class="fa fa-star-o"></i>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-4 related-books">
           <img src="images/Book 5.jpg" alt="Book 5" />
           <h4>Watership Down</h4>
           <div class="rating">
@@ -98,7 +96,7 @@
             <i class="fa fa-star-o"></i>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-4 related-books">
           <img src="images/Book 6.jpg" alt="Book 6" />
           <h4>All The Night We Cannot See</h4>
           <div class="rating">
@@ -109,7 +107,7 @@
             <i class="fa fa-star-half-o"></i>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-4 related-books">
           <img src="images/Book 7.jpg" alt="Book 7" />
           <h4>The HOBBIT</h4>
           <div class="rating">
@@ -124,6 +122,7 @@
     </div>
    
     <!-- ---------Javascript for toggle menu------------- -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
       var MenuItems = document.getElementById("MenuItems");
       MenuItems.style.maxHeight = "0px";
@@ -134,6 +133,13 @@
           MenuItems.style.maxHeight = "0px";
         }
       }
+      $.ajax({
+          url:`https://www.googleapis.com/books/v1/volumes?q=harry+potter`,
+          method:"GET"
+      }).done(function(response){
+          console.log(response);
+          
+      })
     </script>
   </body>
 </html>

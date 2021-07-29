@@ -81,7 +81,7 @@ div.modal-content{
 input.form-control{
     width: 80%;
 }
-div.form-group{
+div.form-group>form{
     display: flex;
     flex-direction: column;
     justify-content: center;
