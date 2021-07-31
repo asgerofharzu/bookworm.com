@@ -11,7 +11,6 @@
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-
     <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
@@ -35,287 +34,128 @@
           </div>
         </div>
     </nav>
-    <div class="main-store">
-
-        <div class="text mb-2">
-            <h6>Add</h6>
-            <h1>Your Comment!</h1>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" id="book-search" type="search" placeholder="Search" aria-label="Search"  value="Good" >
-                <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="ajax-search" >Search</button>
-                <!-- <datalist id="autofix">
-                    <option value="Dan brown">Dan brown</option>
-                    <option value="J. K. Rowling">J. K. Rowling</option>
-                    <option value="Agatha Christie">Agatha Christie</option>
-                    <option value="Arthur Conan Doyle">Arthur Conan Doyle</option>
-                    <option value="Carl Sagan">Carl Sagan</option>
-                    <option value="Fyodor Dostoevsky">Fyodor Dostoevsky</option>
-                </datalist> -->
-            </form>          
+    <!-- Media Object -->
+    <!-- <div class="media">
+        <img src="..." class="align-self-center mr-3" alt="...">
+        <div class="media-body">
+          <h5 class="mt-0">Center-aligned media</h5>
+          <p>She'll turn cold as a freezer. At the eh-end of it all. Stinging like a bee I earned my stripes. Bikinis, zucchinis, Martinis, no weenies. I hope you got a healthy appetite. We can dance, until we die, you and I, will be young forever. We're living the life. We're doing it right. Word on the street, you got somethin' to show me, me.</p>
+          <p class="mb-0">Wanna see the show in 3D, a movie. They say, be afraid you're not like the others, futuristic lover. Open up your heart. So I sat quietly, agreed politely. Last Friday night. Yeah, you're lucky if you're on her plane. I'll be your gift, give you something good to celebrate.</p>
         </div>
-
-        <div class="photos row">
-            <div class="photo-box col-lg-3 col-sm-4" >
-                <div class="box">
-                    <div class="img"></div>
-                    <div class="overlay"></div>
-                    <div class="overlay2"></div>
-
-                    <div class="text">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <h2 class="author"></h2>
-                        <p>BookWorm</p>
-                        <p>
-
-                            <button type="button" class="btn btn-primary count" data-toggle="modal" data-target="">
-                               Add to Comment
-                            </button>
-                        </p>
-
+      </div> -->
+      <!-- <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form> -->
+      <div class="container text" style="background:  #61DAFB;color: #282C34;">
+         <form class="d-flex justify-content-center ">
+            <input class="my-4 mr-2"   type="text" placeholder="Search" style="width: 40%;outline: none;border: 2px solid #7AB5F2;">
+            <button class="my-4" type="button" style="border: 2px solid #7AB5F2; background: #7AB5F2;color: #fff; width: 20%;" >Search</button>
+          </form>
+            <div class="media mb-2">
+                <img src="..." class="align-self-center mr-3" alt="...">
+                <div class="media-body">
+                    <div class="comments">
+                        <h4 class="text-center">Comments</h4>
+                       
+                            <ul class="list-comments" style="overflow: auto !important;">
+                             
+                            </ul>
+                       
+                        <form class="d-flex justify-content-center ">
+                            <input class="my-4 mr-2"  type="text" placeholder="Add to your comments" style="width: 40%;outline: none;border: 2px solid #7AB5F2;">
+                            <button class="my-4" type="button" style="border: 2px solid #7AB5F2; background: #7AB5F2;color: #fff; width: 20%;" >Add</button>
+                        </form>
                     </div>
-
+                    
+                </div>
+                
+            </div>
+            <div class="media mb-2">
+                <img src="..." class="align-self-center mr-3" alt="...">
+                <div class="media-body">
+                    <div class="comments">
+                        <h4 class="text-center">Comments</h4>
+                       
+                            <ul class="list-comments" style="overflow: auto !important;">
+                              
+                            </ul>
+                        
+                        <form class="d-flex justify-content-center ">
+                            
+                            <input class="my-4 mr-2"  type="text" placeholder="Add to your comments" style="width: 40%;outline: none;border: 2px solid #7AB5F2;">
+                            <button class="my-4"   type="button" style="border: 2px solid #7AB5F2; background: #7AB5F2;color: #fff; width: 20%;" >Add</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-            <div class="photo-box col-lg-3 col-sm-4">
-                <div class="box">
-                    <div class="img2"></div>
-                    <div class="overlay"></div>
-                    <div class="overlay2"></div>                    
-                    <div class="text">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <h2 class="author"></h2>
-                        <p>BookWorm</p>
-                        <p>
-                            <button type="button" class="btn btn-primary count" data-toggle="modal" data-target="">
-                               Add to Comment
-                              </button>
-                        </p>
+            <div class="media mb-2">
+                <img src="..." class="align-self-center mr-3" alt="...">
+                <div class="media-body">
+                    <div class="comments">
+                        <h4 class="text-center">Comments</h4>
+                       
+                            <ul class="list-comments" style="overflow: auto !important;">
+                               
+                            </ul>
+                       
+                        <form class="d-flex justify-content-center ">
+                            <input class="my-4 mr-2"  type="text" placeholder="Add to your comments" style="width: 40%;outline: none;border: 2px solid #7AB5F2;">
+                            <button class="my-4" type="button" style="border: 2px solid #7AB5F2; background: #7AB5F2;color: #fff; width: 20%;" >Add</button>
+                        </form>
                     </div>
                 </div>
             </div>
-
-            <div class="photo-box col-lg-3 col-sm-4">
-                <div class="box">
-                    <div class="img3"></div>
-
-                    <div class="overlay"></div>
-                    <div class="overlay2"></div>
-
-                    <div class="text">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <h2 class="author"></h2>
-                        <p>BookWorm</p>
-                        <p>
-                            <button type="button" class="btn btn-primary count" data-toggle="modal" data-target="">
-                                Add to Comment
-                            </button>
-                        </p>
-
-
+            <div class="media mb-2">
+                <img src="..." class="align-self-center mr-3" alt="...">
+                <div class="media-body">
+                    <div class="comments">
+                        <h4 class="text-center">Comments</h4>
+                       
+                            <ul class="list-comments" style="overflow: auto !important;">
+                               
+                            </ul>
+                       
+                        <form class="d-flex justify-content-center ">
+                            <input class="my-4 mr-2"  type="text" placeholder="Add to your comments" style="width: 40%;outline: none;border: 2px solid #7AB5F2;">
+                            <button class="my-4" type="button" style="border: 2px solid #7AB5F2; background: #7AB5F2;color: #fff; width: 20%;" >Add</button>
+                        </form>
                     </div>
-
                 </div>
             </div>
-
-            <div class="photo-box col-lg-3 col-sm-4">
-                <div class="box">
-                    <div class="img4"></div>
-                    <div class="overlay"></div>
-                    <div class="overlay2"></div>
-                    <div class="text">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <h2 class="author"></h2>
-                        <p>BookWorm</p>
-                        <p>
-                            <button type="button" class="btn btn-primary count" data-toggle="modal" data-target="">
-                                Add to Comment
-                              </button>
-                        </p>
-                    </div>
-
-
-                </div>
-
-            </div>
-
-            <div class="photo-box col-lg-3 col-sm-4">
-                <div class="box">
-                    <div class="img5"></div>
-                    <div class="overlay"></div>
-                    <div class="overlay2"></div>
-                    <div class="text">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <h2 class="author"></h2>
-                        <p>BookWorm</p>
-                        <p>
-
-                            <button type="button" class="btn btn-primary count " data-toggle="modal" data-target="">
-                               Add to Comment
-                              </button>
-                        </p>
-                    </div>
-
-
-                </div>
-
-            </div>
-
-
-            <div class="photo-box col-lg-3 col-sm-4">
-                <div class="box">
-                    <div class="img6"></div>
-                    <div class="overlay"></div>
-                    <div class="overlay2"></div>
-
-                    <div class="text">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <h2 class="author"></h2>
-                        <p>BookWorm</p>
-                        <p>
-
-                            <button type="button" class="btn btn-primary count " data-toggle="modal" data-target="">
-                               Add to Comment
-                              </button>
-                        </p>
+            <div class="media">
+                <img src="..." class="align-self-center mr-3" alt="...">
+                <div class="media-body">
+                    <div class="comments">
+                        <h4 class="text-center">Comments</h4>
+                       
+                            <ul class="list-comments" style="overflow: auto !important;">
+                               
+                            </ul>
+                       
+                        <form class="d-flex justify-content-center ">
+                            <input class="my-4 mr-2"  type="text" placeholder="Add to your comments" style="width: 40%;outline: none;border: 2px solid #7AB5F2;">
+                            <button class="my-4" type="button" style="border: 2px solid #7AB5F2; background: #7AB5F2;color: #fff; width: 20%;" >Add</button>
+                        </form>
                     </div>
                 </div>
             </div>
 
-            <div class="photo-box col-lg-3 col-sm-4">
-                <div class="box">
-                    <div class="img7"></div>
-                    <div class="overlay"></div>
-                    <div class="overlay2"></div>
-
-                    <div class="text">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <h2 class="author"></h2>
-                        <p>BookWorm</p>
-                        <p>
-
-                            <button type="button" class="btn btn-primary count " data-toggle="modal" data-target="">
-                               Add to Comment
-                              </button>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="photo-box col-lg-3 col-sm-4">
-                <div class="box">
-                <div class="img8"></div>
-                <div class="overlay"></div>
-                <div class="overlay2"></div>
-
-                <div class="text">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <h2 class="author"></h2>
-                    <p>BookWorm</p>
-                    <p>
-                        <button type="button" class="btn btn-primary count " data-toggle="modal" data-target="">
-                           Add to Comment
-                          </button>
-                    </p>
-                </div>
-            </div>
-        </div>
-
-
-            <div class="photo-box col-lg-3 col-sm-4">
-                <div class="box">
-                <div class="img9"></div>
-                <div class="overlay"></div>
-                <div class="overlay2"></div>
-
-                <div class="text">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <h2 class="author"></h2>
-                    <p>BookWorm</p>
-                    <p>
-                        <button type="button" class="btn btn-primary count " data-toggle="modal" data-target="">
-                           Add to Comment
-                        </button>
-                    </p>
-                </div>
-            </div>
-        </div>
- </div>
-    </div>
-
-    <!-- Button trigger modal -->
-<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-   Add to Comment
-  </button> -->
-  <!-- Scrollable modal -->
- <!-- Button trigger modal -->
-<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-    Launch demo modal
-  </button> -->
-  
-  <!-- Modal -->
-  <!-- <div class="modal fade" id="img1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
       </div>
-    </div>
-  </div> -->
-  
 
 
 
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
-    </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
     <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-database.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="../config.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./assets/js/index.js"></script>
-
 </body>
 </html>
