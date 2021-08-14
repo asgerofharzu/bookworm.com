@@ -1,12 +1,12 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyD0dIpMpPQ0vr7X7kdSyiptfy7aPn68FMw",
-    authDomain: "demoproject-1ad42.firebaseapp.com",
-    databaseURL: "https://demoproject-1ad42-default-rtdb.firebaseio.com",
-    projectId: "demoproject-1ad42",
-    storageBucket: "demoproject-1ad42.appspot.com",
-    messagingSenderId: "681576960302",
-    appId: "1:681576960302:web:7209ffa33731b7d27f2abf"
+  apiKey: "AIzaSyAG-xWxiJRAdPy5L_EgqpJ3J7S_IAY-z-c",
+  authDomain: "practice-c2933.firebaseapp.com",
+  databaseURL: "https://practice-c2933-default-rtdb.firebaseio.com",
+  projectId: "practice-c2933",
+  storageBucket: "practice-c2933.appspot.com",
+  messagingSenderId: "992336998607",
+  appId: "1:992336998607:web:1542d548b15c7a56c3c7ba"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
